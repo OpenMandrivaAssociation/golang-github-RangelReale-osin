@@ -1,0 +1,25 @@
+From a7bbd6dbf5936613a4598b72f702e6ea8d28498c Mon Sep 17 00:00:00 2001
+From: Jan Chaloupka <jchaloup@redhat.com>
+Date: Wed, 7 Oct 2015 17:17:46 +0200
+Subject: [PATCH] update imported packages
+
+---
+ tokengen.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/tokengen.go b/tokengen.go
+index baf2e85..73de7ca 100644
+--- a/tokengen.go
++++ b/tokengen.go
+@@ -4,7 +4,7 @@ import (
+ 	"encoding/base64"
+ 	"strings"
+ 
+-	"github.com/pborman/uuid"
++	"code.google.com/p/go-uuid/uuid"
+ )
+ 
+ // AuthorizeTokenGenDefault is the default authorization token generator
+-- 
+1.9.3
+
